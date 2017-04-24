@@ -1,5 +1,9 @@
 # linkit-smart-feed
 
+* [Host environment](#host-environment)
+* [Procedures](#procedures)
+* [Screenshots](#screenshots)
+
 This feeds holds everything a firmware of LinkIt Smart 7688 (Duo) needs to be
 composed of.
 
@@ -68,3 +72,9 @@ In Ubuntu system, open *Terminal* and execute the following commands:
 
 8. You can use this file to do the firmware upgrade through the Web UI.
    Or rename it to `lks7688.img` for upgrading through a USB drive.
+
+## Screenshots
+
+![](.screenshots/greetings.png)
+![](.screenshots/wi-fi.png)
+![](.screenshots/website.png)
