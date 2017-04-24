@@ -19,9 +19,8 @@ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 include $(INCLUDE_DIR)/package.mk
 
 define Package/mtk-linkit-webui
-  TITLE:=LinkIt Smart 7688 Webui
-  DEPENDS:=@TARGET_ramips_mt7688_LinkIt7688
-  HIDDEN:=1
+	TITLE:=LinkIt Smart 7688 Webui
+	DEPENDS:=@TARGET_ramips_mt7688_DEVICE_LinkIt7688
 endef
 
 define Build/Configure
