@@ -20,10 +20,6 @@ start()
 		SSID=`fw_printenv -n wifi_ssid`
 		KEY=`fw_printenv -n wifi_key`
 		[ -n "${SSID}" ] && uci set wireless.ap.ssid="${SSID}"
-		[ -n "${KEY}" ] && {
-			uci set wireless.ap.encryption='psk2'
-			uci set wireless.ap.key="${KEY}"
-		}
 		uci set wireless.ap.seq="${SEQ}"
 		uci commit wireless
 	}
