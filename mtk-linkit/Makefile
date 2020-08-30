@@ -14,14 +14,11 @@ define Package/mtk-linkit
 		+curl +strace +coreutils +coreutils-stty \
 		+avahi-nodbus-daemon +mountd \
 		+uhttpd +rpcd +rpcd-mod-iwinfo +git +git-http \
-		+python +python-pyserial +python-pip +hidapi \
-		+luci +luci-app-samba +luci-lib-json \
+		+hidapi +luci +luci-lib-json \
 		+rpcd-mod-rpcsys +cgi-io +spi-tools +uboot-envtools \
 		+kmod-fs-vfat +kmod-fs-exfat +kmod-i2c-core +kmod-i2c-mt7628 \
-		+kmod-nls-base +kmod-nls-cp437 +kmod-nls-iso8859-1 \
-		+kmod-nls-iso8859-15 +kmod-nls-iso8859-2 +kmod-nls-utf8 \
-		+kmod-sdhci-mt7620 +kmod-usb-storage \
-		+mtk-linkit-webui +tcpdump-mini
+		+kmod-nls-base +kmod-nls-cp437 +kmod-nls-utf8 \
+		+kmod-usb-storage +mtk-linkit-webui +tcpdump-mini
 	CATEGORY:=Base system
 	DEFAULT:=y
 endef
